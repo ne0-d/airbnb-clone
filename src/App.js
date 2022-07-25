@@ -9,7 +9,14 @@ function App() {
     <div className="container">
       <Navbar />
       {/* <Hero /> */}
-      <Card />
+      <Card 
+        img="katie-zeferes.png"
+        rating = "4.0"
+        reviewCount = {100}
+        title = "Life lessons with Katie Zaferes"
+        price = {136}
+        country = "USA"
+      />
     </div>
   );
 }

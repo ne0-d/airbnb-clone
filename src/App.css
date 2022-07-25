@@ -50,6 +50,7 @@ nav{
   width: 176px;
   font-size: 12px;
   line-height: 1.2;
+  font-weight: 300;
   /* border: 1px solid grey; */
 }
 .product-image{
