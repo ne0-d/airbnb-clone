@@ -1,12 +1,10 @@
-import photo from "../photo-grid.png"
+import photo from "../images/photo.png"
 export default function Navbar(){
     return(
-
-        <div>
-            <img className="photo--grid" src={photo} />
-            <h1>Online Experiences</h1>
-            <p>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
-            
+        <div className="hero">
+            <img className="hero--photo" src={photo} />
+            <h1 className="hero--header">Online Experiences</h1>
+            <p className="hero--content">Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
         </div>
     );
 }
