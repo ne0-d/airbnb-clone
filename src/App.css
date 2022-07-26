@@ -45,17 +45,25 @@ nav{
 }
 
 /* Card */
+.card-list{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+}
 .card{
   margin: 1rem;
   width: 176px;
   font-size: 12px;
   line-height: 1.2;
   font-weight: 300;
+  flex:0 0 auto;
   /* border: 1px solid grey; */
 }
 .product-image{
   /* object-fit: ; */
   max-width: 100%;
+  border-radius: 7px;
 }
 .star{
   position: relative;
@@ -69,4 +77,16 @@ nav{
   color: #918E9B;
   letter-spacing: 110%;
 }
-/* .card > p{} */
+.class-badge{
+  font-weight: 600;
+  padding: 4px;
+  margin: 0.5rem;
+  display: inline;
+  width: auto;
+  border-radius: 3px;
+  /* height: 2rem; */
+  background: #fff;
+  position: relative;
+  top: 30px;
+}
+
